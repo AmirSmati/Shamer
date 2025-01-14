@@ -1,0 +1,45 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+env/
+venv/
+*.env/
+Pipfile
+Pipfile.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and database files
+*.log
+*.sqlite3
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+.cache/
+
+# MyPy type-checking cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# IDE/editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secret environment variables
+.env
+.env.*
